@@ -1,0 +1,241 @@
+@import url(main.css);
+
+.navbar .container-data-transaksi a {
+  color: var(--primary);
+  font-size: medium;
+}
+
+.navbar .container-data-transaksi .utama {
+  color: var(--primary);
+  scale: 0.7;
+}
+/* navigasi end */
+
+/* Data Admin Start */
+.container-data {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
+  margin-left: 280px;
+  width: 1400px;
+  height: 620px;
+  /* background-color: white; */
+}
+
+.container-data .icon {
+  text-align: center;
+  margin-bottom: 10px;
+}
+
+.container-data .icon img {
+  border-radius: 50%;
+  margin-bottom: 10px;
+}
+
+.container-data table {
+  margin-left: 20px;
+  width: 330px;
+  /* border: 1px solid black; */
+}
+
+.container-form {
+  background-color: white;
+  padding: 40px 10px;
+  border: 1px solid rgb(155, 167, 167);
+  border-radius: 12px;
+  margin-bottom: 10px;
+}
+
+.container-data button {
+  margin: 10px;
+  width: 350px;
+  height: 45px;
+  background-color: var(--primary);
+  border-radius: 10px;
+  color: white;
+  /* font-weight: bold; */
+  font-size: large;
+  cursor: pointer;
+}
+/* Data Admin End */
+
+/* Fitur Tambahan */
+.fitur-tambahan {
+  display: flex;
+  /* justify-content: space-around; */
+  /* align-self: center; */
+  padding: 30px;
+  width: 1350px;
+  display: flex;
+  border: 1px solid rgb(155, 167, 167);
+  border-bottom: none;
+  margin-right: 50px;
+}
+
+/* Pencarian Start */
+form {
+  display: flex;
+}
+
+.pencarian button,
+.report-button {
+  width: 80px;
+  height: 30px;
+  border-radius: 8px;
+  border: 1px solid #dd5a21;
+  background-color: var(--transparent-primary);
+  color: white;
+  cursor: pointer;
+  margin-right: 5px;
+}
+
+.pencarian button:hover {
+  background-color: #ca714b;
+}
+
+.pencarian input {
+  width: 300px;
+  height: 30px;
+  border-radius: 8px;
+  padding: 8px;
+  border: 1.5px solid rgb(155, 167, 167);
+  margin-right: 5px;
+}
+
+.refresh {
+  background-color: var(--transparent-primary);
+  border: 1.5px solid var(--primary);
+  border-radius: 50px;
+  width: 30px;
+  height: 30px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+svg.feather.feather-refresh-ccw {
+  scale: 0.7;
+  margin-top: 6px;
+  color: white;
+}
+/* Pencarian End */
+
+/* Sorting Start */
+.sorting {
+  margin-right: -180px;
+}
+
+.sorting select {
+  margin-left: 10px;
+  width: 200px;
+  height: 30px;
+  border-radius: 4px;
+}
+/* Storting End */
+/* Fitur tambahan end */
+
+/* Kolom Manajemen Transaksi Start*/
+.container-manajemen-transaksi .kolom .tb_transaksi {
+  margin: 20px auto 15px;
+  border: 1px solid black;
+  border-collapse: collapse;
+  padding: 5px;
+  font-size: 12px;
+}
+
+.container-manajemen-transaksi .kolom .tb_transaksi a {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  width: 40px;
+  height: auto;
+  border-radius: 5px;
+  background-color: var(--transparent-primary);
+  text-decoration: none;
+  color: white;
+  border-width: 0.5px;
+}
+
+.container-manajemen-transaksi .kolom .tb_transaksi .btn_hapus a {
+  background-color: red;
+  cursor: pointer;
+}
+
+td,
+th {
+  border: 1px solid black;
+  padding: 20px 45px;
+}
+
+th {
+  background-color: rgb(219, 210, 210);
+}
+
+/* Kolom Manajemen Transaksi End */
+
+/* Kolom Detail Transaksi Per-Periode/prediksi permintaan Start*/
+.container-manajemen-transaksi {
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-start;
+  margin: 30px 0 30px 300px;
+  width: 1400px;
+  height: 700px;
+  display: flex;
+  /* border: 2px solid black; */
+}
+
+.container-manajemen-transaksi .kolom {
+  flex-direction: column;
+  background-color: white;
+  width: 1350px;
+  height: auto;
+  border: 1px solid rgb(155, 167, 167);
+  overflow: auto;
+}
+
+.kolom-data-null {
+  display: flex;
+  justify-content: center;
+  padding: 20px;
+}
+
+.container-manajemen-transaksi .icon {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  flex-direction: row;
+  padding: 0 10px;
+  background-color: var(--bg);
+  width: 1350px;
+  height: 100px;
+  border: 1px solid rgb(155, 167, 167);
+  border-bottom: 4.5px solid var(--primary);
+  /* margin-top: 30px; */
+}
+
+.container-manajemen-transaksi .icon .keterangan {
+  display: flex;
+  align-items: center;
+  font-weight: bold;
+  font-size: medium;
+  width: 125px;
+  justify-content: space-between;
+  /* border: 1px solid black; */
+}
+
+.container-manajemen-transaksi .icon .keterangan #feather-icon {
+  margin-top: 5px;
+}
+
+.container-manajemen-transaksi .kolom .tabel {
+  margin: 30px auto 5px;
+  border: 1px solid black;
+  border-collapse: collapse;
+  padding: 5px;
+  font-size: 12px;
+  width: 1200px;
+}
+
+/* Kolom Detail Transaksi Per-Periode/prediksi permintaan End*/

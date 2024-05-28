@@ -1,0 +1,110 @@
+body {
+  font-family: Arial, sans-serif;
+  background-color: #f0f0f0;
+}
+
+h2 {
+  color: #333;
+  margin-bottom: 20px;
+}
+
+.container-transaksi {
+  display: flex;
+  /* border: 1px solid black; */
+  width: 160vh;
+  height: 500px;
+  margin: auto;
+  justify-content: center;
+}
+
+.nota-transaksi {
+  width: 400px;
+  height: auto;
+  background-color: white;
+  padding: 20px;
+}
+
+.nota-transaksi #form-nota label {
+  font-size: 13px;
+}
+
+.nota-transaksi #form-nota input {
+  width: 200px;
+  height: 10px;
+  padding: 10px;
+  border: hidden;
+}
+
+.nota-item {
+  display: flex;
+  align-items: center;
+  border: 1px solid black;
+  padding: 10px;
+  border-radius: 5px;
+}
+
+#hapus {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  color: white;
+  width: 30px;
+  height: 30px;
+  background-color: red;
+  border-radius: 5px;
+  cursor: pointer;
+  margin-left: 40px;
+}
+
+.nota-transaksi label {
+  display: inline;
+}
+#form-produk {
+  width: 50%;
+  margin: 0 20px;
+  padding: 20px;
+  background-color: #fff;
+  border: 1px solid #ddd;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+
+label {
+  display: block;
+  margin-bottom: 10px;
+}
+
+#form-produk input[type='text'],
+#form-produk input[type='number'] {
+  width: 90%;
+  height: 10px;
+  margin-bottom: 20px;
+  padding: 10px;
+  border: 1px solid #ccc;
+}
+
+#detail_produk {
+  margin-bottom: 10px;
+  padding: 10px;
+  border: 1px solid #ccc;
+  background-color: #f9f9f9;
+}
+
+#total_harga {
+  font-weight: bold;
+  margin-bottom: 20px;
+}
+
+#btnProses,
+#btnSimpan {
+  background-color: #4caf50;
+  color: #fff;
+  padding: 10px 20px;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+}
+
+#btnProses:hover,
+#btnSimpan:hover {
+  background-color: #3e8e41;
+}

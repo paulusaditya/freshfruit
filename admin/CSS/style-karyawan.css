@@ -1,0 +1,219 @@
+@import url(main.css);
+
+.navbar .container-karyawan a {
+  color: var(--primary);
+  font-size: 20px;
+}
+
+.navbar .container-karyawan .utama {
+  color: var(--primary);
+  scale: 1;
+}
+/* navigasi end */
+
+/* header */
+.profile {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  padding: 0 50px;
+  padding-left: 350px;
+  height: 80px;
+  width: 100%;
+  background-color: white;
+  border-bottom: 1px solid rgb(211, 218, 218);
+  position: fixed;
+}
+
+/* .profile #profile {
+        text-align: center;
+        padding: 5px 5px 0;
+        width: 40px;
+        height: 40px;
+        border: 3px solid darkgray;
+        padding: 0.5px;
+        border-radius: 50%;
+      } */
+
+#batas {
+  height: 80px;
+}
+/* header end */
+
+/* Pencarian Start */
+.pencarian {
+  margin-top: 30px;
+  margin-left: 370px;
+  /* background-color: aliceblue; */
+}
+
+form {
+  display: flex;
+}
+
+.pencarian button {
+  width: 80px;
+  height: 30px;
+  border-radius: 8px;
+  border: 1px solid #dd5a21;
+  background-color: var(--transparent-primary);
+  color: white;
+  cursor: pointer;
+  margin-right: 5px;
+}
+
+.pencarian button:hover {
+  background-color: #ca714b;
+}
+
+.pencarian input {
+  width: 300px;
+  height: 30px;
+  border-radius: 8px;
+  padding: 8px;
+  border: 1.5px solid rgb(155, 167, 167);
+  margin-right: 5px;
+}
+
+.refresh {
+  background-color: var(--transparent-primary);
+  border: 1.5px solid var(--primary);
+  border-radius: 50px;
+  width: 30px;
+  height: 30px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+svg.feather.feather-refresh-ccw {
+  scale: 0.7;
+  margin-top: 6px;
+  color: white;
+}
+/* Pencarian End */
+
+/* Kolom Manajemen Karyawan Start*/
+.container-manajemen-karyawan {
+  display: flex;
+  justify-content: center;
+  margin-top: 30px;
+  margin-left: 300px;
+  width: 1400px;
+  height: auto;
+  display: flex;
+  justify-content: center;
+  padding: 10px;
+  /* border: 2px solid black; */
+}
+
+.container-manajemen-karyawan .icon {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  flex-direction: row;
+  width: 1350px;
+  height: 70px;
+  padding: 0 10px;
+  border: 1px solid rgb(155, 167, 167);
+  border-bottom: 4.5px solid var(--primary);
+  background-color: var(--bg);
+  position: fixed;
+}
+
+.container-manajemen-karyawan .icon .keterangan {
+  display: flex;
+  align-items: center;
+  font-weight: bold;
+  font-size: medium;
+  width: 130px;
+  justify-content: space-between;
+  /* border: 1px solid black; */
+}
+
+.container-manajemen-karyawan .icon .keterangan #feather-icon {
+  margin-top: 5px;
+}
+
+.container-manajemen-karyawan .icon .tambah-data {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  width: 120px;
+  height: 40px;
+  background-color: var(--transparent-primary);
+  border-radius: 12px;
+  border: 1px solid #dd5a21;
+}
+
+.container-manajemen-karyawan .kolom {
+  display: flex;
+  justify-content: center;
+  flex-direction: column;
+  width: 1350px;
+  height: auto;
+  border: 1px solid rgb(155, 167, 167);
+  overflow: auto;
+  margin: 70px auto 15px;
+  /* padding-top: 15px; */
+  background-color: white;
+}
+
+.container-manajemen-karyawan .icon .tambah-data a {
+  text-decoration: none;
+  color: whitesmoke;
+  font-weight: Medium;
+}
+
+.container-manajemen-karyawan .icon .tambah-data:hover {
+  background-color: #ca714b;
+  cursor: pointer;
+}
+
+.container-manajemen-karyawan .kolom .tb_karyawan {
+  /* margin: 85px auto 15px; */
+  border: 1px solid black;
+  border-collapse: collapse;
+  margin: 10px;
+  font-size: 12px;
+  text-align: center;
+}
+
+.container-manajemen-karyawan .kolom .tb_karyawan a {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  width: 40px;
+  height: auto;
+  border-radius: 5px;
+  background-color: var(--transparent-primary);
+  text-decoration: none;
+  color: white;
+  font-family: 'Poppins', Arial, Helvetica, sans-serif;
+  border-width: 0.5px;
+}
+
+.container-manajemen-karyawan .kolom .tb_karyawan .btn_hapus a {
+  background-color: red;
+  cursor: pointer;
+}
+
+td,
+th {
+  border: 1px solid black;
+  padding: 20px 10px;
+}
+
+th {
+  background-color: rgb(219, 210, 210);
+}
+
+td:nth-child(7) {
+  display: flex;
+  border: none;
+}
+
+tr:not(:last-child) {
+  border-bottom: 1px solid black;
+}
+/* Kolom Manajemen Karyawan End */

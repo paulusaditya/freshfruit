@@ -1,0 +1,99 @@
+@import url(main.css);
+
+/* Tanda halaman start */
+.navbar .container-produk a {
+  color: var(--primary);
+  font-size: 20px;
+}
+
+.navbar .container-produk .utama {
+  color: var(--primary);
+  scale: 1;
+}
+/* Tanda halaman end */
+
+/* Form tambah produk start */
+.form-container {
+  display: flex;
+  justify-content: center;
+  margin-top: 30px;
+  margin-left: 300px;
+  margin-bottom: 30px;
+  width: 1400px;
+  height: 720px;
+}
+
+.form-container .form {
+  width: 1300px;
+  height: auto;
+  background-color: white;
+  border: 1px solid rgb(155, 167, 167);
+}
+
+.form-container .form .icon {
+  display: flex;
+  align-items: center;
+  flex-direction: row;
+  height: 70px;
+  padding: 0 10px;
+  border-bottom: 4.5px solid var(--primary);
+  background-color: var(--bg);
+  width: 100%;
+}
+
+.form-container .form .icon .keterangan {
+  display: flex;
+  align-items: center;
+  font-weight: bold;
+  font-size: medium;
+  width: 150px;
+  justify-content: space-between;
+  /* border: 1px solid black; */
+}
+
+.form-container .form .icon .keterangan #feather-icon {
+  margin-top: 5px;
+}
+
+.form-container .form form {
+  margin: 15px 20px;
+}
+
+.form-container .form form input:not(#gambar_produk),
+select {
+  width: 600px;
+  height: 35px;
+  border-radius: 5px;
+  border: 1px solid rgb(155, 167, 167);
+  margin-bottom: 10px;
+  padding: 8px;
+  font-family: 'Poppins', Arial, Helvetica, sans-serif;
+  font-size: medium;
+}
+
+.form-container .form form #gambar_produk {
+  /* border: 1px solid black; */
+  margin-bottom: 30px;
+}
+
+.form-container .form form select {
+  padding: 4.5px;
+}
+
+.form-container .form button {
+  width: 100px;
+  height: 35px;
+  border-radius: 5px;
+  border: 1px solid #dd5a21;
+  color: white;
+  background-color: var(--transparent-primary);
+}
+
+.form-container .form button:active {
+  background-color: #cb663b;
+}
+
+button:not(#reset) {
+  margin: 10px 5px 10px 20px;
+}
+/* Form tambah produk end */

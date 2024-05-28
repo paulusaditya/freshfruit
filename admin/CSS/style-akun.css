@@ -1,0 +1,90 @@
+@import url(main.css);
+
+.navbar .container-akun a {
+  color: var(--primary);
+  font-size: 20px;
+}
+
+.navbar .container-akun .utama {
+  color: var(--primary);
+  scale: 1;
+}
+/* navigasi end */
+
+/* header */
+.profile {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  padding: 0 50px;
+  padding-left: 350px;
+  height: 80px;
+  width: 100%;
+  background-color: white;
+  border-bottom: 1px solid rgb(211, 218, 218);
+  position: fixed;
+}
+
+/* .profile #profile {
+            text-align: center;
+            padding: 5px 5px 0;
+            width: 40px;
+            height: 40px;
+            border: 3px solid darkgray;
+            padding: 0.5px;
+            border-radius: 50%;
+          } */
+
+#batas {
+  height: 80px;
+}
+/* header end */
+
+/* Data Admin Start */
+.container-data {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
+  margin-left: 280px;
+  width: 1400px;
+  height: 700px;
+  /* background-color: white; */
+}
+
+.container-data .icon {
+  text-align: center;
+  margin-bottom: 10px;
+}
+
+.container-data .icon img {
+  border-radius: 50%;
+  margin-bottom: 10px;
+}
+
+.container-data table {
+  margin-left: 20px;
+  /* width: 330px; */
+  /* border: 1px solid black; */
+}
+
+.container-form {
+  background-color: white;
+  padding: 40px 10px;
+  border: 1px solid rgb(155, 167, 167);
+  border-radius: 12px;
+  margin-bottom: 10px;
+}
+
+.container-data button {
+  margin: 10px;
+  width: 350px;
+  height: 45px;
+  background-color: var(--primary);
+  border-radius: 10px;
+  color: white;
+  /* font-weight: bold; */
+  font-size: large;
+  cursor: pointer;
+}
+/* Data Admin End */

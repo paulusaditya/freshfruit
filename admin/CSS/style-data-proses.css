@@ -1,0 +1,224 @@
+@import url(main.css);
+.navbar .container-promosi a {
+  color: var(--primary);
+  font-size: 20px;
+}
+
+.navbar .container-promosi .utama {
+  color: var(--primary);
+  scale: 1;
+}
+/* navigasi end */
+
+/* header */
+.profile {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  padding: 0 50px;
+  padding-left: 350px;
+  height: 80px;
+  width: 100%;
+  background-color: white;
+  border-bottom: 1px solid rgb(211, 218, 218);
+  position: fixed;
+}
+
+/* .profile #profile {
+          text-align: center;
+          padding: 5px 5px 0;
+          width: 40px;
+          height: 40px;
+          border: 3px solid darkgray;
+          padding: 0.5px;
+          border-radius: 50%;
+        } */
+
+#batas {
+  height: 80px;
+}
+/* header end */
+
+/* Data Proses Start */
+.container-data-proses {
+  display: flex;
+  justify-content: start;
+  flex-direction: column;
+  margin-left: 300px;
+  margin-top: 10px;
+  width: 1350px;
+  height: auto;
+  border: 1px solid rgb(141, 141, 141);
+  border-radius: 7px;
+  padding: 10px;
+}
+
+.container-data-proses .tabel {
+  width: 100%;
+  height: auto;
+  border: 1px solid rgb(141, 141, 141);
+  border-radius: 7px;
+  text-align: center;
+  margin: 10px auto;
+  display: flex;
+  justify-content: flex-start;
+  align-items: center;
+  padding-top: 10px;
+  background-color: white;
+}
+
+.container-data-proses .icon {
+  display: flex;
+  align-items: center;
+  width: 100%;
+  height: 50px;
+  border-bottom: 4.5px solid var(--primary);
+}
+
+.container-data-proses .icon .keterangan {
+  font-weight: bold;
+  display: flex;
+  justify-content: flex-start;
+  align-items: center;
+  width: 210px;
+}
+
+/* Ini Kolom keterangan  (header) */
+.container-detail-transaksi {
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-start;
+  margin: 30px 0 10px 300px;
+  width: 1350px;
+  height: auto;
+}
+
+.container-detail-transaksi .icon {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  flex-direction: row;
+  padding: 0 10px;
+  background-color: var(--bg);
+  width: 100%;
+  height: 100px;
+  border: 1px solid rgb(155, 167, 167);
+  border-bottom: 4.5px solid var(--primary);
+  /* margin-top: 30px; */
+}
+
+.container-detail-transaksi .icon .keterangan {
+  display: flex;
+  align-items: center;
+  font-weight: bold;
+  font-size: medium;
+  width: 200px;
+  /* border: 1px solid black; */
+}
+
+.container-detail-transaksi .icon .keterangan #feather-icon {
+  margin-top: 5px;
+}
+
+.container-detail-transaksi .icon .keterangan span {
+  margin-left: 10px;
+}
+
+.container-detail-transaksi .icon .info-data-proses {
+  width: 25px;
+  height: 25px;
+  background-color: var(--primary);
+  border: 1px solid #93330a;
+  border-radius: 50px;
+  color: white;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin-right: 20px;
+  cursor: pointer;
+}
+
+/* Keterangan end */
+
+/* Kolom Detail Transaksi Per-Periode/prediksi permintaan Start*/
+.container-detail-transaksi .c_periode {
+  flex-direction: column;
+  width: 100%;
+  height: auto;
+  border: 1px solid rgb(155, 167, 167);
+  /* overflow: auto;*/
+}
+
+.container-detail-transaksi .c_periode h4 {
+  background-color: var(--bg);
+  padding: 10px 0 0 20px;
+  /* border-bottom: 1px solid rgb(155, 167, 167); */
+}
+
+.report-button {
+  width: 120px;
+  height: 30px;
+  border-radius: 8px;
+  border: 1px solid #dd5a21;
+  background-color: var(--transparent-primary);
+  color: white;
+  cursor: pointer;
+  margin-left: 10px;
+  /* margin-bottom: 10px; */
+}
+
+.container-detail-transaksi .c_periode .range-period {
+  align-items: center;
+  background-color: var(--bg);
+  padding: 10px 20px;
+  margin-bottom: 10px;
+  /* border-bottom: 1px solid rgb(155, 167, 167); */
+}
+
+.container-detail-transaksi .c_periode .range-period input {
+  /* margin-top: 10px; */
+  width: 200px;
+  height: 30px;
+  border-radius: 8px;
+  padding: 8px;
+  border: 1px solid rgb(155, 167, 167);
+}
+
+.container-detail-transaksi .c_periode .range-period label {
+  /* background-color: var(--transparent-primary); */
+  border-radius: 8px;
+  margin: 0 10px;
+  font-size: larger;
+  font-weight: bold;
+}
+
+.kolom-data-null {
+  display: flex;
+  justify-content: center;
+  padding: 20px;
+  width: 1350px;
+  height: auto;
+  border: 1px solid rgb(155, 167, 167);
+  margin-left: 300px;
+}
+
+.kolom-data-not-null {
+  display: flex;
+  justify-content: center;
+  padding: 20px;
+  width: 1350px;
+  height: auto;
+  border: 1px solid rgb(155, 167, 167);
+  margin-left: 300px;
+  background-color: white;
+}
+
+table,
+th,
+td,
+tr {
+  border: 1px solid black;
+  border-collapse: collapse;
+  padding: 5px 10px;
+  text-align: center;
+}
