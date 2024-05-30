@@ -32,6 +32,13 @@ function tambah($post){
     $tanggal = htmlspecialchars($post['tanggal']);
     $stok = htmlspecialchars($post['stok']);
 
+    // Check if the code already exists
+    $existing_produk = query("SELECT * FROM produk WHERE kode = '$kode'");
+    if (!empty($existing_produk)) {
+        echo '<script>alert("Kode sudah ada dalam database. Silakan gunakan kode lain.");</script>';
+        return false; // Exit the function
+    }
+
     $gambar = upload();
     if (!$gambar) {
         return false;
@@ -43,6 +50,7 @@ function tambah($post){
     mysqli_query($conn, $query);
     return mysqli_affected_rows($conn);
 }
+
 
 function hapus($kode){
     global $conn;
