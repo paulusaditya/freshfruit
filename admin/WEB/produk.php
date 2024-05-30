@@ -101,7 +101,7 @@ if ( isset($_POST["cari"]) ){
         <a
           href="data_proses.php"
           class="menu-nav"
-          >Data Proses</a
+          >Prediksi</a
         >
       </div>
       <div class="container-akun">
@@ -194,7 +194,6 @@ if ( isset($_POST["cari"]) ){
                 <td><?= $row['stok']?></td>
                 <td>
                   <div class="btn_edit"><a href="form-edit-produk.php?kode=<?= $row['kode']?>">E</a></div>
-                  <div class="btn_hapus">
                   <div class="btn_hapus">
                       <a href="../PHP/hapus.php?kode=<?= htmlspecialchars($row['kode'], ENT_QUOTES, 'UTF-8') ?>" onclick="return confirmDeletion(this)">x</a>
                   </div>

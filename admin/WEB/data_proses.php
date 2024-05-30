@@ -91,7 +91,7 @@ include "../PHP/apriori.php";
         <a
           href="#"
           class="menu-nav"
-          >Data Proses</a
+          >Prediksi</a
         >
       </div>
       <div class="container-akun">

@@ -105,7 +105,7 @@ $jumlah_karyawan = query("SELECT COUNT(*) AS jumlah_karyawan FROM karyawan; ");
       </div>
       <div class="container-promosi">
         <span class="icon"><i data-feather="table"></i></span>
-        <a href="data_proses.php" class="menu-nav">Data Proses</a>
+        <a href="data_proses.php" class="menu-nav">Prediksi</a>
       </div>
       <div class="container-akun">
         <span class="icon"><i data-feather="user"></i></span>

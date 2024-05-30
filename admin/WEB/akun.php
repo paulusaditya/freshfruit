@@ -82,7 +82,7 @@ $admin = query("SELECT admin.id, admin.nama, admin.email, admin.nomer, admin.gam
         <a
           href="data_proses.php"
           class="menu-nav"
-          >Data Proses</a
+          >Prediksi</a
         >
       </div>
       <div class="container-akun">
