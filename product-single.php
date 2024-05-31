@@ -170,7 +170,7 @@ $produk = query("SELECT * FROM produk WHERE id = $id")[0];
 				<div class="col-md-12 heading-section text-center ftco-animate">
 					<span class="subheading">Products</span>
 					<h2 class="mb-4">Related Products</h2>
-					<p>Far far away, behind the word mountains, far from the countries Vokalia and Consonantia</p>
+					<p>Kami bekerja sama dengan petani lokal untuk mendukung pertanian Indonesia.</p>
 				</div>
 			</div>
 		</div>
